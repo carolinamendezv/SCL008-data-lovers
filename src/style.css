@@ -1,0 +1,25 @@
+body{
+    background:url("img/imagenInicio.jpeg");
+    background-size: 100%;
+}
+.lolWorld{
+    background: none;
+    color:rgb(243, 236, 183);
+    font-family:FrizQuadrata;
+    font-weight: bold;
+    font-size:25px;
+    margin-top:560px;
+    margin-left:533px;
+    margin-right:0px;
+}
+
+.lolWorld2{
+    background: none;
+    color:rgb(243, 236, 183);
+    font-family:FrizQuadrata;
+    font-weight: bold;
+    font-size:25px;
+    margin-top:560px;
+    margin-left:15px;
+    margin-right:100px;
+}
