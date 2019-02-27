@@ -1,14 +1,23 @@
 body{
-    background:url("img/imagenInicio.jpeg");
+    background:url("img/lol-lol.jpg");
     background-size: 100%;
 }
+
+.titulo-inicio{
+    font-family:FrizQuadrata;
+    font-size: 80px;
+    color:rgb(243, 236, 183);
+    text-align: center;
+}
+
+
 .lol-world{
     background: none;
     color:rgb(243, 236, 183);
     font-family:FrizQuadrata;
     font-weight: bold;
     font-size:25px;
-    margin-top:560px;
+    margin-top:400px;
     margin-left:533px;
     margin-right:0px;
 }
@@ -19,7 +28,25 @@ body{
     font-family:FrizQuadrata;
     font-weight: bold;
     font-size:25px;
-    margin-top:560px;
+    margin-top:400px;
     margin-left:15px;
     margin-right:100px;
+}
+
+
+.titulo-lol{
+    font-family: FrizQuadrata;
+    font-size: 60px;
+    color:rgb(243, 236, 183);
+    text-align: center;
+}
+.parrafo-lol{
+    width: 500px;
+    
+    margin-left: 420px;
+    font-family: Arial;
+    font-size: 20px;
+    color:rgb(243, 236, 183);
+    text-align: justify;
+
 }
