@@ -1,4 +1,4 @@
-/* Manejo del DOM */
+
 
 
 const data1 = LOL.data;
