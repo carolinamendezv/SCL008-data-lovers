@@ -1,10 +1,11 @@
 /* Manejo del DOM */
+
 /*se crean los conts de los botones LOL WORLD Y LOS PERSONAJES 
 y le agrego posicion para que se ejecuten segun su orden */
 const btnworld = document.getElementsByTagName('button')[0];
 
 const btnCharacters = document.getElementsByTagName('button')[1];
-
+ 
 //le agrego el evento click para ejecutar la funcion 
 btnworld .addEventListener('click', () => {
   //se crea contenido dinamico
@@ -18,7 +19,7 @@ btnworld .addEventListener('click', () => {
   Donde tienen disponible todos los que aparecen en la pagina.
   cada personaje tiene 3 habilidades propias y una 4ta que se conoce como definitiva.
   </p>`
-
+  
 })
  /*Pantalla 2 characteres se le agrega btn select */
 //le agrego el evento click para ejecutar la funcion 
@@ -36,8 +37,5 @@ btnCharacters.addEventListener('click', () => {
     <option value="Apoyo">Apoyo</option>
     <option value="Asesinos">Asesinos</option>
   </select>` ;
-
-}); 
-
-
-
+  
+});
