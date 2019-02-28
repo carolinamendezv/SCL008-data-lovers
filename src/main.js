@@ -1,14 +1,15 @@
 
-
-
-const data1 = LOL.data;
-const container = document.getElementById('root');
+const data1 = window.LOL;
 const data2 = Object.values(data1);
+const container = document.getElementById('root');
 
-/data2 recorre arreglos/
 
-  data2.forEach(element => {
-    container.innerHTML += `<p>{element.name}</p>
+/*data2 recorre arreglos*/
+
+
+
+data2.forEach(element => {
+   container.innerHTML += `<p>{element.name}</p>
     <img="img" src=${element.img}" alt="${element.name}">`
   });
 
@@ -20,15 +21,15 @@ const data2 = Object.values(data1);
 /*se crean los conts de los botones LOL WORLD Y LOS PERSONAJES
 y le agrego posicion para que se ejecuten segun su orden */
 
-const btnworld = document.getElementsByTagName('button')[0];
+//const btnworld = document.getElementsByTagName('button')[0];
 
-const btnCharacters = document.getElementsByTagName('button')[1];
+//const btnCharacters = document.getElementsByTagName('button')[1];
 
 
 
 //le agrego el evento click para ejecutar la funcion
 btnworld .addEventListener('click', () => {
-  //se crea contenido dinamico
+ // se crea contenido dinamico
   document.getElementById('root').innerHTML = '';
   document.getElementById('root').innerHTML += 
 });
@@ -37,7 +38,7 @@ btnworld .addEventListener('click', () => {
 //y se le agrega btn select para filtrar
 btnCharacters.addEventListener('click', () => {
   
-  });
+});
 
   document.getElementById('root').innerHTML = '';
   document.getElementById('root').innerHTML +=
