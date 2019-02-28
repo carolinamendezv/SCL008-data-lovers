@@ -5,8 +5,13 @@
 
 
 
-//const filterData= (data,condition) => {
- //return 'example';
-//};
+const filterData= (data,condition) => {
+let filter = data.filter(element =>{
+  return element.roll === condition;
+})
+ return filter ;
+};
 
-//window.example = example;
+window.filterData = filterData;
+
+
