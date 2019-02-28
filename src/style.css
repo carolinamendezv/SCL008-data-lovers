@@ -11,31 +11,22 @@ body{
 }
 
 
-.lol-world{
+.lol-world, .lol-world2{
     background: none;
     color:rgb(243, 236, 183);
     font-family:FrizQuadrata;
+    text-decoration: none;
     font-weight: bold;
     font-size:25px;
-    margin-top:400px;
-    margin-left:533px;
-    margin-right:0px;
+    border:1px white solid;
+    padding: 9px;
 }
 
-.lol-world2{
-    background: none;
+
+.titulo-inicio2 {
     color:rgb(243, 236, 183);
     font-family:FrizQuadrata;
-    font-weight: bold;
-    font-size:25px;
-    margin-top:400px;
-    margin-left:15px;
-    margin-right:100px;
-}
-.title1,title2 {
-    color:rgb(243, 236, 183);
-    font-family:FrizQuadrata;
-    font-size:40px;
+    font-size:60px;
     
 }
 h2{
