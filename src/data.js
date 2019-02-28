@@ -7,11 +7,10 @@
 
 const filterData= (data,condition) => {
 let filter = data.filter(element =>{
-  return element.roll === condition;
+  return elementData === condition;
 })
  return filter ;
 };
 
 window.filterData = filterData;
-
 
