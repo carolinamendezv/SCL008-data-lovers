@@ -4,8 +4,16 @@ const data2 = Object.values(data1);
 const container = document.getElementById('root');
 
 
+<<<<<<< Updated upstream
 /*data2 recorre arreglos*/
 
+=======
+const data1 = window.LOL;
+const container = document.getElementById('root');
+const data2 = Object.values(data1);
+
+/*data2 recorre arreglos*/
+>>>>>>> Stashed changes
 
 
 data2.forEach(element => {
@@ -57,4 +65,3 @@ btnCharacters.addEventListener('click', () => {
 })
 window.onload = data2(data1);
 se crea window.onload para refrescar pag*/
-
