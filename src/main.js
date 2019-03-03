@@ -1,67 +1,22 @@
+/*window.onload = () => {*/
 
-const data1 = window.LOL;
-const data2 = Object.values(data1.data);
-const container = document.getElementById('root-empty');
+const data2= Object.values(window.LOL.data);
 
+const boardCharacters = document.getElementById("board");
+document.getElementById("power-type").addEventListener("change", () => {
+  let condition = document.getElementById("power-type").value;
+  let resultTags=window.filterData(data2,condition);
+  boardCharacters.innerHTML ="";
+  resultTags.forEach(element => {
+    boardCharacters.innerHTML+= `
+  <div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">${element.name}</h5>
 
-/*data2 recorre arreglos*/
-/* dejando como comentario esta parte de antes
-data2.forEach(element => {
-   container.innerHTML += `<p>{element.name}</p>
-    <img="img" src=${element.img}" alt="${element.name}">`
-  });*/
-document.getElementById("select-rol").addEventListener('change',() =>{
-let condition= document.getElementById("select-rol").value;
-let result = window.filterData(data2,condition);
-
-container.innerHTML ="";
-result.forEach(element => {
-    container.innerHTML += `<div class="card">
-    <p>${element.name}</p>
-    </div> `
-});
+        <img class="image" src="${element.splash}" alt="">
+      </div>
+    </div>`
+  });
 });
 
-
-
-
-
-/*se crean los conts de los botones LOL WORLD Y LOS PERSONAJES
-y le agrego posicion para que se ejecuten segun su orden */
-
-//const btnworld = document.getElementsByTagName('button')[0];
-
-//const btnCharacters = document.getElementsByTagName('button')[1];
-
-
-
-//le agrego el evento click para ejecutar la funcion
-//btnworld .addEventListener('click', () => {
- // se crea contenido dinamico
-  //document.getElementById('root').innerHTML = '';
-  //document.getElementById('root').innerHTML += 
-//});
- /*Pantalla 2 characteres se le agrega btn select */
-//le agrego el evento click para ejecutar la funcion
-//y se le agrega btn select para filtrar
-//btnCharacters.addEventListener('click', () => {
-  
-//});
-
-  //document.getElementById('root').innerHTML = '';
-  //document.getElementById('root').innerHTML +=
-
-
-/*document.getElementById('select-roll').addEventListener('change',() =>{
-  let condition = document.getElementById('select-roll').value;
-  let result = window.filterData(data,condition);
-
-  container.innerHTML='';
-  result.forEach(element => {
-    container.innerHtml +=`<p>${element.name}</p>
-    <img = "img" src="${element.img}" alt="${element.name}">`
-  })
-
-})
-window.onload = data2(data1);
-se crea window.onload para refrescar pag*/

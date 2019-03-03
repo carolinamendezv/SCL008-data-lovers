@@ -8,66 +8,54 @@
     <title>data-lovers2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
 </head>
-
 <body>
-    <div id ="root3">
+  <div id ="root3">
     <h1 class="titulo-inicio2">Characters</h1>
+    <!--2do filtro data name -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+          <select id="filtro-3">Por Nombre >
+            <option value="0">Seleccionar...</option>
+            <option value="tipo-name">Name</option>
+          </select>
+        </div>
+       <!--ordenamiento data-->
+      <div class="filtro col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+        <select id="orden1">
+          <option value="0">Seleccionar...</option>
+          <option value="ordenar a-z">ordenar A-Z</option>
+          <option value="ordenar z-a">ordenar Z-A</option>
+        </select>
+      </div>
 
-        <!--2do filtro data name -->
-<div class=filtro2>
-
-    <select id="filtro-3">Por Nombre >
-    <option value="0">Seleccionar...</option>
-    <option value="tipo-name">Name</option>
-    </select>
-</div>
-
-    <!--ordenamiento data-->
-<div class=filtro><br><br><br>
-
-<select id="orden1">
-    
-    <option value="0">Seleccionar...</option>
-    <option value="ordenar a-z">ordenar A-Z</option>
-    <option value="ordenar z-a">ordenar Z-A</option>
-
-</select>
-</div>
-
-  <!--1er filtro -->
-<div class=filtro3>
-
-<select id="select-rol">
-
-    <option value="0">Seleccionar...</option>
-    <option value="Marksman">Tirador</option>
-    <option value="Fighter">Luchador</option>
-    <option value="Mage">Mago</option>
-    <option value="Tank">Tanque</option>
-    <option value="Support">soport</option>
-    <option value="Assassin">Asesinos</option>
-</select>
+    <!--1er filtro -->
+    <div class="col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+      <select class="filtro3" id="power-type">
+        <option value="0">Seleccionar...</option>
+        <option value="Marksman">Tirador</option>
+        <option value="Fighter">Luchador</option>
+        <option value="Mage">Mago</option>
+        <option value="Tank">Tanque</option>
+        <option value="Support">soporte</option>
+        <option value="Assassin">Asesinos</option>
+      </select>
+      </div>
     </div>
+  </div>
 
 
-</div>   
-<div id="root-empty"></div>
+<div id="board"></div>
+
     <script src="./data/lol/lol.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
-
-
-
-
-
