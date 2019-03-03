@@ -5,12 +5,12 @@
 
 
 
-const filterData= (data,condition) => {
-let filter = data.filter(element =>{
-  return elementData === condition;
-})
- return filter ;
-};
-
-window.filterData = filterData;
+const filterData= (data2,condition) => {
+    let filter = data2.filter(element =>{
+      return (element.tags).includes(condition) === true;
+    })
+     return filter ;
+    };
+    
+    window.filterData = filterData;
 
