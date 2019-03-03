@@ -1,15 +1,23 @@
-/* Manejo de data 
+/* Manejo de data
 
  esta es una función de ejemplo
- puedes ver como agregamos la función a nuestro objeto global window*/ 
- 
-const data2 = Object.values(data1);
+ puedes ver como agregamos la función a nuestro objeto global window*/
 
-function filter(data2, condition){
-const dataShow = data2.filter((element)=>{
-    return element[1].tags.includes(condition) === true;
-    
+
+/*function filter(data2, condition){
+const resultTags = data2.filter((element)=>{
+    return element.tags.includes(condition)===true;
+
 });
 
-return dataShow;
+return resultTags;
 }
+*/
+const filterData = (data2,condition) => {
+  let resultTags = data2.filter(element =>{
+    return (element).tags.includes(condition)=== true;
+  });
+  return resultTags;
+ }
+
+window.filterData=filterData;
