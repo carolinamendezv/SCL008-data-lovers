@@ -1,37 +1,44 @@
 *{
-  box-sizing: border-box;
-  margin:0px;
-  padding:0px;
-}
-body{
-    background-image: url("img/fondo-fondo.jpg");
-	background-size:cover; 
-    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+  }
+  body{
+      background:url("img/lol-lol.jpg");
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
   
-
-}
-.row > div{
-	margin-top: 15px;
-	background-size:30px;
-	margin-bottom: 18px;
-}
-.titulo{
-	font-size: 65px;
+  }
+  .titulo{
+    font-size: 65px;
     color: #FFFBFF;
     font-weight: bold;
     font-family:FrizQuadrata;
     text-align: center;
     letter-spacing: 13px;
-    
-}
-.col-md-9{
-	background-color:rgb(34,29,35,.30);
+  }
+  
+  #caja{
+   
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+	margin-top:10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  #caja-2{
+    background-color:rgb(34,29,35,.30);
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
 	background-size: 150px 150px;
 	margin-top:10px;
-	margin-right: 0px;
-}
-.subtitulo{
+    margin-right: 0px;
+  }
+  .subtitulo{
 	font-size: 25px;
     color: #AFA39E;
     font-weight: bold;
@@ -43,47 +50,41 @@ body{
     font-weight: bold;
     font-family: Arial;
 }
-.imagen{
-	width:290px;
-	height: 300px;
-}
-.costado{
-	background-color:#585a5a;
-	opacity: 0,9;
-	width: 140px;
-    height: 270px;
-}
-.lol-world2, .lol-world{
-    background: none;
-    color:rgb(243, 236, 183);
-    font-family:FrizQuadrata;
-    text-decoration: none;
-    font-weight: bold;
-    font-size:25px;
-    border:1px white solid;
-    padding: 9px;
+  
+  .lol-world, .lol-world2{
+      background: none;
+      color:rgb(243, 236, 183);
+      font-family:FrizQuadrata;
+      text-decoration: none;
+      font-weight: bold;
+      font-size:25px;
+      border:1px white solid;
+      padding: 9px;
+   
+    
+  }
+  .row{
+      margin-top: 20px;
+  }
+  
+  
+  .titulo-inicio2 {
+      color:rgb(243, 236, 183);
+      font-family:FrizQuadrata;
+      font-size:60px;
+  
+  }
+  h2{
+      font-size: 30px;
+      text-align: center;
+      color:rgb(243, 236, 183);
+  }
+
+  .image {
+    height:200px ;
+    width: 100%;
 }
 
-.titulo-inicio2 {
-    color:rgb(243, 236, 183);
-    font-family:FrizQuadrata;
-    font-size:60px;
-
-}
-h2{
-    font-size: 30px;
-    text-align: center;
-    color:rgb(243, 236, 183);
-}
-
-#tarjetas{
-    width: 200px;
-}
-
-#board{
-    flex-flow: row-wrap;
-    display: flex;
-}
 #board{
 flex-flow: row wrap;
 display: flex;

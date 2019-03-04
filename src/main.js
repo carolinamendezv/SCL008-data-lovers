@@ -1,4 +1,4 @@
-/*window.onload = () => {*/
+  /*window.onload = () => {*/
 
 const data2= Object.values(window.LOL.data);
 
@@ -9,7 +9,6 @@ document.getElementById("power-type").addEventListener("change", () => {
   boardCharacters.innerHTML ="";
   resultTags.forEach(element => {
     boardCharacters.innerHTML+= `
-
   <div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
     <div class="card">
       <div class="card-body">
@@ -19,5 +18,6 @@ document.getElementById("power-type").addEventListener("change", () => {
       </div>
     </div>`
   });
+});
 
     
