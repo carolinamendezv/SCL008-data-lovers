@@ -14,7 +14,7 @@ document.getElementById("power-type").addEventListener("change", () => {
       <div class="card-body">
         <h5 class="card-title">${element.name}</h5>
 
-        <img class="image" src="${element.splash}" alt="">
+        <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
       </div>
     </div>`
   });
