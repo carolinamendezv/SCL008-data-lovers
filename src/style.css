@@ -7,16 +7,49 @@
       background:url("img/lol-lol.jpg");
       background-repeat: no-repeat;
       min-height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
   
   }
-  
-  .titulo-inicio{
-      font-family:FrizQuadrata;
-      font-size: 80px;
-      color:rgb(243, 236, 183);
-      text-align: center;
+  .titulo{
+    font-size: 65px;
+    color: #FFFBFF;
+    font-weight: bold;
+    font-family:FrizQuadrata;
+    text-align: center;
+    letter-spacing: 13px;
   }
   
+  #caja{
+   
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+	margin-top:10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  #caja-2{
+    background-color:rgb(34,29,35,.30);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+	background-size: 150px 150px;
+	margin-top:10px;
+    margin-right: 0px;
+  }
+  .subtitulo{
+	font-size: 25px;
+    color: #AFA39E;
+    font-weight: bold;
+    font-family:FrizQuadrata;
+}
+.parrafo{
+	font-size: 16px;
+    color: #AFA39E;
+    font-weight: bold;
+    font-family: Arial;
+}
   
   .lol-world, .lol-world2{
       background: none;
@@ -27,6 +60,11 @@
       font-size:25px;
       border:1px white solid;
       padding: 9px;
+   
+    
+  }
+  .row{
+      margin-top: 20px;
   }
   
   
