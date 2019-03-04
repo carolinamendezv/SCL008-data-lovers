@@ -18,7 +18,6 @@ document.getElementById("power-type").addEventListener("change", () => {
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
       </div>
     </div>`
-
   });
 
     
