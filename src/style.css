@@ -4,21 +4,56 @@
   padding:0px;
 }
 body{
-    background:url("img/lol-lol.jpg");
+    background-image: url("img/fondo-fondo.jpg");
+	background-size:cover; 
     background-repeat: no-repeat;
-    min-height: 100vh;
+  
 
 }
-
-.titulo-inicio{
+.row > div{
+	margin-top: 15px;
+	background-size:30px;
+	margin-bottom: 18px;
+}
+.titulo{
+	font-size: 65px;
+    color: #FFFBFF;
+    font-weight: bold;
     font-family:FrizQuadrata;
-    font-size: 80px;
-    color:rgb(243, 236, 183);
     text-align: center;
+    letter-spacing: 13px;
+    
 }
-
-
-.lol-world, .lol-world2{
+.col-md-9{
+	background-color:rgb(34,29,35,.30);
+    border-radius: 20px;
+	background-size: 150px 150px;
+	margin-top:10px;
+	margin-right: 0px;
+}
+.subtitulo{
+	font-size: 25px;
+    color: #AFA39E;
+    font-weight: bold;
+    font-family:FrizQuadrata;
+}
+.parrafo{
+	font-size: 16px;
+    color: #AFA39E;
+    font-weight: bold;
+    font-family: Arial;
+}
+.imagen{
+	width:290px;
+	height: 300px;
+}
+.costado{
+	background-color:#585a5a;
+	opacity: 0,9;
+	width: 140px;
+    height: 270px;
+}
+.lol-world2, .lol-world{
     background: none;
     color:rgb(243, 236, 183);
     font-family:FrizQuadrata;
@@ -28,7 +63,6 @@ body{
     border:1px white solid;
     padding: 9px;
 }
-
 
 .titulo-inicio2 {
     color:rgb(243, 236, 183);
@@ -41,9 +75,12 @@ h2{
     text-align: center;
     color:rgb(243, 236, 183);
 }
-.image {
-  height:200px ;
-  width: 100%;
 
+#tarjetas{
+    width: 200px;
+}
 
+#board{
+    flex-flow: row-wrap;
+    display: flex;
 }
