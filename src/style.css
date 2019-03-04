@@ -45,9 +45,12 @@
   .image {
     height:200px ;
     width: 100%;
+}
 
-  }
-  #board{
-      flex-flow: row-wrap;
-      display: flex;
-  }
+#board{
+flex-flow: row wrap;
+display: flex;
+
+
+
+}
