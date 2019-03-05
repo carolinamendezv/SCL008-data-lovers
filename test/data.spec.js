@@ -4,7 +4,7 @@ require('../src/data');
 require('./data.spec.js');
 
 
-describe('Funcion filterData', () => {
+describe('filterData', () => {
   const data = [
     {
       name: 'Akali',
@@ -16,11 +16,9 @@ describe('Funcion filterData', () => {
     }
   ]
   
-  it('debería ser una función', () => {
-    assert.equal(typeof example, 'function');
+  it('debería retonar el string Akali al filtrar', () => {
+    assert.equal(window.filterData(data,"Assassin"), [{name:'Akali',tags:'Assassin'}])
   });
 
-  it('debería retornar "example"', () => {
-    assert.equal(example(), 'example');
-  });
+  
 })
