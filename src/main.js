@@ -4,6 +4,7 @@ const data2= Object.values(window.LOL.data);
 
 const boardCharacters = document.getElementById("board");
 document.getElementById("power-type").addEventListener("change", () => {
+  
   let condition = document.getElementById("power-type").value;
   let resultTags=window.filterData(data2,condition);
   boardCharacters.innerHTML ="";
@@ -20,4 +21,5 @@ document.getElementById("power-type").addEventListener("change", () => {
   });
 });
 
-    
+
+

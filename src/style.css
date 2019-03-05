@@ -80,15 +80,16 @@
       color:rgb(243, 236, 183);
   }
 
-  .image {
+
+
+  .image{
     height:200px ;
     width: 100%;
-}
+  }  
+  
+
 
 #board{
 flex-flow: row wrap;
 display: flex;
-
-
-
 }
