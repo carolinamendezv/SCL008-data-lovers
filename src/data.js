@@ -22,3 +22,10 @@ const filterData = (data2,condition) => {
  }
 
 window.filterData=filterData;
+
+
+
+
+
+
+
