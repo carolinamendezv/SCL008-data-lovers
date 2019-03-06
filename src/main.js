@@ -21,14 +21,15 @@ document.getElementById("power-type").addEventListener("change", () => {
 });
 
 const championsOrder = document.getElementById("orden1");
-const containerOrder = document.getElementById("championBox");
+const containerOrder= document.getElementById("championBox") 
+
 
 championsOrder.addEventListener('change', () => {
   let option = championsOrder.value;
   let ordering = window.sortData(data2, 'name', option); 
-  championBox.innerHTML = '';
+  containerOrder.innerHTML = '';
    ordering.forEach(element => { 
-    championBox.innerHTML += `
+    containerOrder.innerHTML += `
        <div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
     <div class="card">
       <div class="card-body">
@@ -38,5 +39,5 @@ championsOrder.addEventListener('change', () => {
       </div>
     </div>`
        
-   })
-  })
+   });
+  });
