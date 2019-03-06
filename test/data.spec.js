@@ -20,32 +20,4 @@ describe('Function filterData', () => {
     assert.deepEqual(window.filterData(data, 'Mage'), [{name: 'Annie', tags: 'Mage'}] )
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 })

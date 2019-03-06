@@ -25,7 +25,7 @@
     border-radius: 20px;
     background-size: cover;
     background-position: center;
-	margin-top:10px;
+   	margin-top:10px;
     margin-right: 10px;
     margin-bottom: 15px;
   }
@@ -80,16 +80,13 @@
       color:rgb(243, 236, 183);
   }
 
-
-
-  .image{
+  .image {
     height:200px ;
     width: 100%;
-  }  
-  
+}
 
-
-#board{
+#board, #championBox{
 flex-flow: row wrap;
 display: flex;
 }
+
