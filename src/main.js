@@ -1,5 +1,4 @@
   /*window.onload = () => {*/
-
 const data2= Object.values(window.LOL.data);
 
 const boardCharacters = document.getElementById("board");
@@ -21,5 +20,23 @@ document.getElementById("power-type").addEventListener("change", () => {
   });
 });
 
+const championsOrder = document.getElementById("orden1");
+const containerOrder = document.getElementById("championBox");
 
+championsOrder.addEventListener('change', () => {
+  let option = championsOrder.value;
+  let ordering = window.sortData(data2, 'name', option); 
+  championBox.innerHTML = '';
+   ordering.forEach(element => { 
+    championBox.innerHTML += `
+       <div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">${element.name}</h5>
 
+        <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
+      </div>
+    </div>`
+       
+   })
+  })

@@ -85,10 +85,8 @@
     width: 100%;
 }
 
-#board{
+#board, #championBox{
 flex-flow: row wrap;
 display: flex;
-
-
-
 }
+
