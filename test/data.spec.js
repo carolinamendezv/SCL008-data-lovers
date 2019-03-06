@@ -20,4 +20,37 @@ describe('Function filterData', () => {
     assert.deepEqual(window.filterData(data, 'Mage'), [{name: 'Annie', tags: 'Mage'}] )
   });
 
+})
+
+describe('Funcion sortData' , () => {
+const dataSort = [
+ {
+  name : 'Zyra'
+ },
+ {
+  name :'Aatrox'
+ }
+]
+  it('debería retornar en orden alfabético de Z a A el string Zira, luego Aatrox', () => {
+    assert.deepEqual(window.sortData(dataSort,'name','ordenarZa'),
+[
+  {name :'Zyra'},
+  {name : 'Aatrox'}
+])
+
 });
+
+it('deberia retornar en orden alfabético Aatrox y despues Zyra',()=>{
+assert.deepEqual(window.sortData(dataSort,'name','ordenarAz'),
+[
+  {name :'Aatrox'
+},
+{name :'Zyra'
+}
+])
+
+})
+
+});
+
+
