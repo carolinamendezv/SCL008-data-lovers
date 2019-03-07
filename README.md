@@ -1,6 +1,6 @@
 # Champions Data
 
-## Demo
+
 
 ## Índice
 
