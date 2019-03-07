@@ -22,8 +22,6 @@
   }
   
   #caja{
-    
-    border-radius: 20px;
     background-size: cover;
     background-position: center;
    	margin-top:10px;
@@ -67,7 +65,13 @@
   .row{
       margin-top: 20px;
   }
-  
+  .cuerpo{
+    background:url("img/fondo-fondo.jpg");
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+  }
   
   .titulo-inicio2 {
       color:rgb(243, 236, 183);
