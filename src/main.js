@@ -8,20 +8,21 @@ document.getElementById("power-type").addEventListener("change", () => {
   let resultTags=window.filterData(data2,condition);
   boardCharacters.innerHTML ="";
   resultTags.forEach(element => {
-    boardCharacters.innerHTML+= `
-  <div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
-    <div class="card">
+    boardCharacters.innerHTML+= `<div class="col-sm-12	col-md-4 col-lg-4	col-xl-4">
+    <div class="card ">
       <div class="card-body">
         <h5 class="card-title">${element.name}</h5>
 
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
       </div>
     </div>`
+  
   });
 });
 
 const championsOrder = document.getElementById("orden1");
-const containerOrder = document.getElementById("championBox");
+const containerOrder= document.getElementById("championBox") 
+
 
 championsOrder.addEventListener('change', () => {
   let option = championsOrder.value;
@@ -30,13 +31,13 @@ championsOrder.addEventListener('change', () => {
    ordering.forEach(element => { 
     containerOrder.innerHTML += `
        <div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
-    <div class="card">
+    <div class="card "<!--bg-transparents-->
       <div class="card-body">
-        <h5 class="card-title">${element.name}</h5>
+        <h5 class="card-title ">${element.name}</h5>
 
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
       </div>
     </div>`
        
-   })
-  })
+   });
+  });
