@@ -11,12 +11,17 @@
 </head>
 <body>
   <!--<div id ="root3">-->
-    <h1 class="titulo-inicio2">Characters</h1>
+
+   <div class="row">
+     <div class="col">
+        <h1 class="titulo-inicio2 text-center" >Characters</h1>
+     </div>
+   </div>
   
     <!--2do filtro data name -->
     <div class="container">
       <div class="row">
-        <div class="col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+        <div class="col-12	col-sm-12	col-md-3	col-lg-3	col-xl-3">
           <select id="filtro-3">
               
            <option value="0">Seleccionar...</option>
@@ -24,7 +29,7 @@
           </select>
         </div>
        <!--ordenamiento data-->
-      <div class="filtro col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+      <div class="filtro col-12	col-sm-12	col-md-3	col-lg-3	col-xl-3">
         <select id="orden1">
           <option value="0">Seleccionar...</option>
           <option value="ordenarAz">ordenar A-Z</option>
@@ -33,7 +38,7 @@
       </div>
 
     <!--1er filtro -->
-    <div class="col-12	col-sm-12	col-md-4	col-lg-4	col-xl-4">
+    <div class="col-12	col-sm-12	col-md-3	col-lg-3	col-xl-3">
       <select class="filtro3" id="power-type">
         <option value="0">Seleccionar...</option>
         <option value="Marksman">Tirador</option>
@@ -44,12 +49,12 @@
         <option value="Assassin">Asesinos</option>
       </select>
       </div>
+      <div class="col-12	col-sm-12	col-md-3	col-lg-3	col-xl-3">
+          <a href='index.html' ><img class="text-left" src='/home/laboratoriad106/Escritorio/SCL008-data-lovers/src/img/punta-de-flecha-a-la-derecha (1).png'></a>
+      </div>
     </div>
   </div>
-
-  <form method='post'>
-    <a href='index.html' onClick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src='/home/laboratoriad106/Escritorio/SCL008-data-lovers/src/img/punta-de-flecha-a-la-derecha (1).png' border='0'></a>
-    </form>
+  
 <div id="board"></div>
 <div id="championBox"></div>
 

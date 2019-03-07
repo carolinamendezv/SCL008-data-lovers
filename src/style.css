@@ -81,6 +81,7 @@
   }
 
   .image {
+    background: none;
     height:200px ;
     width: 100%;
 }
@@ -89,4 +90,13 @@
 flex-flow: row wrap;
 display: flex;
 }
-
+#orden1,#power-type,#filtro-3{
+background: none;  
+color:rgb(243, 236, 183);
+font-family:FrizQuadrata;
+text-decoration: none;
+font-weight: bold;
+font-size:20px;
+ border:1px white solid;
+ margin:20px 5px;
+}
