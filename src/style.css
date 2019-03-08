@@ -26,21 +26,22 @@
   #caja-2{
     border-radius: 20px;
    	background-size: 50%;
-	  margin-top:35px;
-    margin-bottom: 20px;
+	  margin-top:45px;
+    margin-bottom: 100px;
     padding: 20px;
   }
   .subtitulo{
 	font-size: 25px;
-    color: #AFA39E;
+    color: white;
     font-weight: bold;
     font-family:FrizQuadrata;
     margin-top: 15px;
+    margin-bottom:  20px;
   
   }
 .parrafo{
 	font-size: 16px;
-    color: #AFA39E;
+    color:white;
     font-weight: bold;
     font-family: Arial;
     margin-bottom: 15px;
@@ -48,11 +49,11 @@
   
   .lol-world2{
     background-color: #802e2e00; 
-    color:darkgrey;
+    color:white;
     padding: 7px;
     font-family:FrizQuadrata;
     font-weight: bold;
-    font-size:20px;
+    font-size:30px;
      border: solid white 1px;
      margin:20px 5px;
    

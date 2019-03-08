@@ -35,6 +35,8 @@ Creamos nuestro prototipo de baja fidelidad
 
 ## Historias de Usuario  📌
 
+
+
 ## Historia de Usuario 1:
 
 YO COMO jugador nuevo de LOL
