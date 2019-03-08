@@ -12,23 +12,14 @@
       background-attachment: fixed;
   
   }
-  .titulo{
-    font-size: 65px;
-    color:rgb(243, 236, 183);
-    font-weight: bold;
-    font-family:FrizQuadrata;
-    text-align: center;
-    letter-spacing: 10px;
-    margin-top: 15px;
-    padding: 7px;
+  .img-titulo{
+width: 70%;
   }
-  
+ 
   #caja-2{
+    background-color:(7,16,25);
     border-radius: 20px;
-   	background-size: 50%;
-	  margin-top:35px;
-    margin-bottom: 20px;
-    padding: 20px;
+ padding: 20px;
   }
   .subtitulo{
 	font-size: 25px;
