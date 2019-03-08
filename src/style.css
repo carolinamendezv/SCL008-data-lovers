@@ -24,12 +24,11 @@
   }
   
   #caja-2{
-    background-color:rgb(34,29,35,.30);
     border-radius: 20px;
    	background-size: 50%;
 	  margin-top:35px;
     margin-bottom: 20px;
-    padding-bottom: 35px;
+    padding: 20px;
   }
   .subtitulo{
 	font-size: 25px;
@@ -47,15 +46,15 @@
     margin-bottom: 15px;
 }
   
-  .lol-world, .lol-world2{
-      background: none;
-      color:rgb(243, 236, 183);
-      font-family:FrizQuadrata;
-      text-decoration: none;
-      font-weight: bold;
-      font-size:25px;
-      border:1px white solid;
-      padding: 9px;
+  .lol-world2{
+    background-color: #802e2e00; 
+    color:darkgrey;
+    padding: 7px;
+    font-family:FrizQuadrata;
+    font-weight: bold;
+    font-size:20px;
+     border: solid white 1px;
+     margin:20px 5px;
    
     
   }
@@ -105,10 +104,10 @@ font-size:20px;
  margin:20px 5px;
 
 };
-.footer {
+footer, p{
   padding-top: 50px;
   color: white;
-  margin-bottom: 415px;  
+  margin-bottom: 41px;  
 }
 
 
