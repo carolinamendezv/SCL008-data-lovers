@@ -20,7 +20,7 @@ describe('Function filterData', () => {
     assert.deepEqual(window.filterData(data, 'Mage'), [{name: 'Annie', tags: 'Mage'}] )
   });
 
-})
+}),
 
 describe('Funcion sortData' , () => {
 const dataSort = [
@@ -36,7 +36,7 @@ const dataSort = [
 [
   {name :'Zyra'},
   {name : 'Aatrox'}
-])
+]);
 
 });
 
@@ -47,9 +47,9 @@ assert.deepEqual(window.sortData(dataSort,'name','ordenarAz'),
 },
 {name :'Zyra'
 }
-])
+]);
 
-})
+});
 
 });
 
