@@ -99,10 +99,19 @@ display: flex;
 
 background-color: #802e2e00; 
 color:grey;
+padding: 7px;
 font-family:FrizQuadrata;
 font-weight: bold;
 font-size:20px;
- border:1px whitesmoke solid;
+ border:none;
  margin:20px 5px;
 
 };
+.footer {
+  padding-top: 50px;
+  color: white;
+  margin-bottom: 415px;  
+}
+
+
+

@@ -13,6 +13,7 @@ document.getElementById("power-type").addEventListener("change", () => {
       <div class="card-body ">
         <h5 class="card-title font-weight-bold">${element.name}</h5>
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
+        <h5 class="card-title font-weight-bold">${element.info}</h5>
       </div>
     </div>`
   
@@ -34,6 +35,7 @@ championsOrder.addEventListener('change', () => {
         <h3 class="card-title font-weight-bold ">${element.name}</h3>
 
         <img class="image" src="${element.splash}" alt=""class="img-thumbnail">
+        <h5 class="card-title font-weight-bold">${element.info}</h5>
       </div>
       </div>
     </div>`
