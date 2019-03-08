@@ -83,19 +83,21 @@
     background: none;
     height:200px ;
     width: 100%;
+    scroll-padding-block: 6px;
 }
 
 #board, #championBox{
 flex-flow: row wrap;
 display: flex;
 }
-#orden1,#power-type,#filtro-3{
-background: none;  
-color:rgb(243, 236, 183);
+#orden1,#power-type{  
+
+background-color: #802e2e00; 
+color:grey;
 font-family:FrizQuadrata;
-text-decoration:none;
 font-weight: bold;
 font-size:20px;
- border:1px white solid;
+ border:1px whitesmoke solid;
  margin:20px 5px;
-}
+
+};
