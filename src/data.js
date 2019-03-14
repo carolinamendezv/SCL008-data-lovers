@@ -1,6 +1,6 @@
 
-const filterData = (data2,condition) => {
-  let resultTags = data2.filter(element =>{
+const filterData = (dataLol,condition) => {
+  let resultTags = dataLol.filter(element =>{
     return (element).tags.includes(condition)=== true;
   });
   return resultTags;
@@ -8,8 +8,8 @@ const filterData = (data2,condition) => {
 
  window.filterData=filterData;
 
-const sortData =(data2, sortBy, sortOrder)=>{
-let orderChampions = data2.sort((a,b)=> {
+const sortData =(dataLol, sortBy, sortOrder)=>{
+let orderChampions = dataLol.sort((a,b)=> {
   return a [sortBy].localeCompare(b[sortBy]);
 });
 if (sortOrder==="ordenarZa"){
@@ -22,8 +22,8 @@ return orderChampions
 window.sortData=sortData;
 
 
-const computeStats = (data2,condition) => {
-let result = filterData(data2,condition).length;
+const computeStats = (dataLol,condition) => {
+let result = filterData(dataLol,condition).length;
 return result;
 
 }

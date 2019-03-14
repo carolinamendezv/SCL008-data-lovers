@@ -1,7 +1,6 @@
-  /*window.onload = () => {*/
-const data2= Object.values(window.LOL.data);
+const dataLol= Object.values(window.LOL.data);
 
-/* funcion showdata---->continuará*/
+
 
 const  boardCharacters = document.getElementById("board");
 
@@ -10,7 +9,7 @@ let calcule = document.getElementById("power-type");
 calcule.addEventListener("click", () =>{
  
  let condition = calcule.value;
- let result= window.computeStats(data2,condition);
+ let result= window.computeStats(dataLol,condition);
  boardCharacters.innerHTML +=
  `<h2>Total Champions :</h2>
    <p>${result}</p>
@@ -26,7 +25,7 @@ calcule.addEventListener("click", () =>{
 document.getElementById("power-type").addEventListener("change", () => {
   
   let condition = document.getElementById("power-type").value;
-  let resultTags=window.filterData(data2,condition);
+  let resultTags=window.filterData(dataLol,condition);
   boardCharacters.innerHTML ="";
   resultTags.forEach(element => {
     boardCharacters.innerHTML+= `
@@ -48,7 +47,7 @@ const containerOrder= document.getElementById("championBox")
 
 championsOrder.addEventListener('change', () => {
   let option = championsOrder.value;
-  let ordering = window.sortData(data2, 'name', option); 
+  let ordering = window.sortData(dataLol, 'name', option); 
   containerOrder.innerHTML = '';
    ordering.forEach(element => { 
     containerOrder.innerHTML += `<div class="col-sm-12	col-md-4	col-lg-4	col-xl-4">
