@@ -1,6 +1,8 @@
   /*window.onload = () => {*/
 const data2= Object.values(window.LOL.data);
 
+/* funcion showdata---->continuará*/
+
 const boardCharacters = document.getElementById("board");
 document.getElementById("power-type").addEventListener("change", () => {
   
@@ -8,7 +10,8 @@ document.getElementById("power-type").addEventListener("change", () => {
   let resultTags=window.filterData(data2,condition);
   boardCharacters.innerHTML ="";
   resultTags.forEach(element => {
-    boardCharacters.innerHTML+= `<div class="col-sm-12	col-md-4 col-lg-4	col-xl-4">
+    boardCharacters.innerHTML+= `
+    <div class="col-sm-12	col-md-4 col-lg-4	col-xl-4">
     <div class="card text-white bg-transparent">
       <div class="card-body ">
         <h5 class="card-title font-weight-bold">${element.name}</h5>
@@ -40,7 +43,27 @@ championsOrder.addEventListener('change', () => {
       </div>
     </div>`
     
-       
-       
-   });
+    });
   });
+
+
+ let calcule = document.getElementById("power-type");
+ calcule.addEventListener("click", () =>{
+  
+  let condition = calcule.value;
+  let result= window.computeStats(data2,condition);
+
+   return result;
+
+ 
+
+  /*const btnStats = document.getElementById("button-stats");
+  const container = document.getElementById("stats-zone");
+
+  btnStats.addEventListener("click", () =>{
+    let resultStats= window.computeStats(data2,condition);
+    console.log(resultStats)
+    */
+
+  });
+ 
