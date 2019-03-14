@@ -24,7 +24,7 @@ window.sortData=sortData;
 
 const computeStats = (data2,condition) => {
 let result = filterData(data2,condition).length;
- return result;
+return result;
 
 }
 
