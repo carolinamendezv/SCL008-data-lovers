@@ -3,7 +3,26 @@ const data2= Object.values(window.LOL.data);
 
 /* funcion showdata---->continuará*/
 
-const boardCharacters = document.getElementById("board");
+const  boardCharacters = document.getElementById("board");
+
+
+let calcule = document.getElementById("power-type");
+calcule.addEventListener("click", () =>{
+ 
+ let condition = calcule.value;
+ let result= window.computeStats(data2,condition);
+ boardCharacters.innerHTML +=
+ `<h2>Total Champions :</h2>
+   <p>${result}</p>
+ 
+ `
+});
+
+
+
+
+
+
 document.getElementById("power-type").addEventListener("change", () => {
   
   let condition = document.getElementById("power-type").value;
@@ -47,23 +66,10 @@ championsOrder.addEventListener('change', () => {
   });
 
 
- let calcule = document.getElementById("power-type");
- calcule.addEventListener("click", () =>{
-  
-  let condition = calcule.value;
-  let result= window.computeStats(data2,condition);
-
-   return result;
+ 
+ 
 
  
 
-  /*const btnStats = document.getElementById("button-stats");
-  const container = document.getElementById("stats-zone");
-
-  btnStats.addEventListener("click", () =>{
-    let resultStats= window.computeStats(data2,condition);
-    console.log(resultStats)
-    */
-
-  });
+ 
  
