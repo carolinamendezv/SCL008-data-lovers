@@ -23,7 +23,7 @@ window.sortData=sortData;
 
 
 const computeStats = (dataLol,condition) => {
-let result = filterData(dataLol,condition).length;
+let result = filterData(dataLol,condition);
 return result;
 
 }

@@ -4,28 +4,22 @@ const dataLol= Object.values(window.LOL.data);
 
 const  boardCharacters = document.getElementById("board");
 
-
+const statscontainer = document.getElementById("stats");
 let calcule = document.getElementById("power-type");
 calcule.addEventListener("click", () =>{
- 
+  statscontainer.innerHTML ="";
  let condition = calcule.value;
  let result= window.computeStats(dataLol,condition);
- boardCharacters.innerHTML +=
- `<h2>Total Champions :</h2>
-   <p>${result}</p>
- 
- `
+ statscontainer.innerHTML +=
+ `<h2>Total Champions :${result}</h2>`
 });
-
-
-
-
-
 
 document.getElementById("power-type").addEventListener("change", () => {
   
   let condition = document.getElementById("power-type").value;
   let resultTags=window.filterData(dataLol,condition);
+
+  
   boardCharacters.innerHTML ="";
   resultTags.forEach(element => {
     boardCharacters.innerHTML+= `
