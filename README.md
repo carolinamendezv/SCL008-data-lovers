@@ -1,23 +1,8 @@
 # Champions Data
 
+![alt tag](Captura-1.png)
 
-
-## Índice
-
-* [Introduccdión](##Introducción)
-* [Planificación](#planificacion)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Parte opcional](#parte-opcional-hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
-* [Contenido de referencia](#contenido-de-referencia)
-* [Checklist](#checklist)
-
-
-
- ## Introducción 🚀
+## Introducción 🚀
 
 **Champions Data** es una aplicación web responsiva que fue hecha pensada en aquellos jugadores que recien estan adentrandose en el universo [**LOL**](https://lan.leagueoflegends.com/es/) y busquen cierta orientación al momento de elegir sus champions.
 En ella se puede visualizar a los champions, obtener una breve reseña sobre sus caracteristicas y también conocerlos a travez de un filtro por tipo de juego (rol).
@@ -27,56 +12,62 @@ En ella se puede visualizar a los champions, obtener una breve reseña sobre sus
 
 Tras informarnos muy bien sobre los requisitos que proponía el proyecto *Data Lovers* comenzamos por hacer un diagrama de flujo donde podíamos proyectar, a grandes razgos, las caracteristicas que queríamos poner en nuestra aplicacion.
 Posteriormente registramos un listado de tareas para el logro de objetivos y con la intención de poder organizarnos de manera eficiente.
-Link a *TRELLO*  [**Aqui**](https://trello.com/b/jaVnMsw3/data-lovers).
-Creamos nuestro prototipo de baja fidelidad
-
-
-
+Link a *TRELLO*  [**Aqui**](https://trello.com/b/jaVnMsw3/data-lovers). Para, posterior a eso, meternos de lleno a escribir las historias de usuario.
 
 
 ## Historias de Usuario  📌
 
+Este proyecto nos hizo implementar la idea de las Historias de usuario para así pensar en ellos y sus necesidades con el fin de llevarlo a la aplicación web transformadas en Criterios de aceptación. Aqui las principales historias de usuario:
 
 
-## Historia de Usuario 1:
+### Historia de Usuario 1:
+
+Yo como juegador principiante QUIERO ver la aplicacion web desde el computador PARA entender el universo LOL desde mi casa antes de ponerme a jugar.
+
+
+### Historia de Usuario 2:
 
 YO COMO jugador nuevo de LOL
 QUIERO poder revisar el sitio en distintos dispositivos.
 PARA poder conocer mejor LOL y sus campeones
 
 
-## Historia de Usuario 2:
+### Historia de Usuario 3:
 
 YO COMO jugador nuevo de lol
 QUIERO saber quienes son los personajes con roll mago y sus habilidades
-PARA seleccionarlos y jugar
+PARA seleccionarlos y jugar.
 
-## Historia de Usuario 3:
+### Historia de Usuario 4:
 
-YO COMO jugador principiante de lol QUIERO que la pagina me muestre todos los campeones ordenados por nombre con imagen de ellos PARA saber cual elegir.
+YO COMO jugador principiante de lol QUIERO que la pagina me muestre la cantidad de champiosn de tipo mago PARA saber cuantos son.
+
 
 ## Diseño, criterios de aceptación y test de usabilidad
-al tener nuestras historias de usuario, creamos el scketch de baja fidelida, en cual se determino el enfoque que dariamos a nuestra aplicacion,con los feedbacks recidos empezamos a crear el prototipo de alta fidelidad en figma. en el que no grabamos lamentablemente pero recibimos varias criticas constructivas en pos de mejorar nustro diseño.
 
-https://www.figma.com/file/CRl06G4yHrnNoAKT1jcpNhfG/prueba?node-id=0%3A1
+Lo primero fue un proceso de encuestas que arrojaron estos datos:
 
-algunos de los comentarios recibidos:
+![alt tag](dato-1.png)
+![alt tag](dato-2.png)
+![alt tag](dato-3.png)
 
-*Mejorar background colores muy oscuros *Pagina mas dinamica *Menos texto.
+Tras retener ciertas ideas de lo que nuestro usuario prefería inciamos el proceso de búsqueda sobre como eran las webs más usuales con el tema (League of Legends) para de esta forma determinar los colores mas comunmente usados y su tipografía.
+![alt tag](desktop.png)
 
-al tener los feedbacks, quizimos mejorar en esos criterios, abarcando la mayoria de los requerimientos solicitados,
+De acuerdo a esta información trazamos un wireframe determinando el enfoque que le queríamos dar a nuestra aplicación.
 
-desde este punto empezamos con la creacion de nuestra aplicacion; ya, en este punto nos enfocamos que nuestra aplicacion tuviera un filtro de rol que divide a los personajes en 6 tipos, los cuales son:
+![alt tag](desktop-1.png)
+![alt tag](desktop-2.png)
+![alt tag](desktop-3.png)
 
-*Asesinos *Magos *Peleadores *Tanque *Soporte *Tirador
+Finalmente trazamos el Prototipo de alta fidelidad que vendrá en nuestra proxima iteración del producto. Esta disponible en la herramienta Figma.
 
-Esta era una de nuestras historia de usuario,otra de nuestra historia de usuario era poder asociar los nombres de los personajes con imagenes, lo cual logramos crear con el filtro tipo de rol.
+ https://www.figma.com/file/H7LojqvutjQGcOFxZahliu4M/Colores%2FFuentes?node-id=8%3A21
 
-Para que sea mas pulcra y de facil entendimiento, se puede ordenar alfabeticamente de A-Z y de Z-A, que este tambien era un requerimeinto poder ordenar el filtro lo cual se logro;
 
-Tambien cabe destacar que se nos pidio poder agregrar un poco de historia del personaje por lo que al filtrar a nuestros personajes abajo de la imagen aparece un pequeña reseña del personaje.
+##Test de usabilidad
 
-A continuacion agregare alguno de los videos de nuestro test de usabilidad. con el cual terminamos de realizar los cambios finales.
+A continuacion algunos de los videos de nuestro test de usabilidad. con el cual terminamos de realizar los cambios finales.
 
 #video 1 https://www.useloom.com/share/675dbded6a7b484da918d3893c59af85
 
@@ -86,38 +77,11 @@ A continuacion agregare alguno de los videos de nuestro test de usabilidad. con 
 
 
 
-
-
-
-
-
-
-## Modo de uso 📹
-Al ser una aplicacion pensada en principiantes de LOL(league of legends). nuestro enfoque fue para el principiante.
-como pagina de presentacion. captura1 *
-
-en nuestra 2da pantalla es donde esta los select de tipo rol y ordenar alfabeticamente. 
-
-
-
-
-
-
-## Codigo 🛠️
-
-
 ## Conclusion 🎁
 Nuestro último objetivo es seguir generando iteraciones hasta el que el producto final sea de total agrado y conveniencia para nuestro usuario.
 
-Hecho por Fabiola Tapia y Carolina Méndez.
+Hecho por Carolina Méndez.
 
-Checklist
-
-** Usa VanillaJS. **No hace uso de this. **Pasa linter (npm pretest) **Pasa tests (npm test) *Pruebas unitarias cubren un mínimo del 70% de statements, functions y lines y branches. **Incluye Definición del producto clara e informativa en README.md. **Incluye historias de usuario en README.md. **Incluye sketch de la solución (prototipo de baja fidelidad) en README.md. **Incluye Diseño de la Interfaz de Usuario (prototipo de alta fidelidad) en README.md.
-
-**Incluye el listado de problemas que detectaste a través de tests de usabilidad en el README.md.
-
-**UI: Permite ordenar data por uno o más campos (asc y desc). **UI: Permite filtrar data en base a una condición.
 
 
 

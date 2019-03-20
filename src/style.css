@@ -12,8 +12,7 @@
       background-attachment: fixed;
   
   }
-.titu
- 
+
   #caja-2{
     background-color:(7,16,25);
     border-radius: 20px;
@@ -60,12 +59,12 @@
       background-attachment: fixed;
   }
   
-  .titulo-inicio2 {
+  .titulo, .titulo-inicio2 {
       color:rgb(243, 242, 235);
       font-family:FrizQuadrata;
       font-size:60px;
       padding: 32px;
-      
+      text-align: center;
   
   }
   h2{
